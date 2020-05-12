@@ -54,6 +54,22 @@ namespace csloop
 
 
 
+
+            //05_for문을 while문으로 바꾸기
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("출력");
+            }
+
+            int i = 0;
+            int[] num = new int[10];
+            while (i < num.Length)
+            {
+                Console.WriteLine("출력");
+                i++;
+            }
+
+
         }
     }
 }
