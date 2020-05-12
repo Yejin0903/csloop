@@ -27,7 +27,7 @@ namespace csloop
                 Console.WriteLine(item);
             }
 
-            int x = 1;
+            /*int x = 1;
             while (x < 50)
             {
                 Console.Clear();
@@ -42,7 +42,18 @@ namespace csloop
 
                 Thread.Sleep(100);
                 x++;
+                
+            }*/
+
+            int[] array1 = new int[10];
+
+            foreach (var item in array1)
+            {
+                Console.WriteLine(item);
             }
+
+
+
         }
     }
 }
